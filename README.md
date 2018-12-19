@@ -1,5 +1,5 @@
 # Go-Present
-The tool `go-present` is a simple Golang wrapper around `reveal.js` that takes a Markdown file, injects it into the template, and starts up a docker container/http server to server the presentation.
+The tool `go-present` is a simple Golang wrapper around `reveal.js` that takes a Markdown file, injects it into the template, and starts up a docker container/http server to serve the presentation.
 
 ## Usage
 To use this tool you only need Docker installed on your system. To build the tool and the docker container run `make linux` from this repo directory. This will output something like the following:
