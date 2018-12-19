@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/{{.ThemeName}}.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section data-markdown="{{.MarkdownFile}}"
+         data-separator="^\n\n\n"
+         data-separator-vertical="^\n\n"
+         data-separator-notes="^Note:"
+         data-charset="iso-8859-15">
+        <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+        -->
+        </section>
+			</div>
+		</div>
+		<script src="js/reveal.js"></script>
+    <script src="plugin/markdown/marked.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+		<script>
+			Reveal.initialize();
+		</script>
+	</body>
+</html>
